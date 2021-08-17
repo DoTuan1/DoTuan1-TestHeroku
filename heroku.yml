@@ -1,0 +1,9 @@
+build:
+ docker:
+   web: Dockerfile.web
+release:
+ image: web
+ command:
+   - ./entrypoint.sh
+run:
+ web: gunicorn core.wsgi:application --bind 0.0.0.0:$PORT
