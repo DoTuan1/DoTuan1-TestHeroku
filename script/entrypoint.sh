@@ -1,6 +1,6 @@
 #!/bin/bash
-# echo "start memcached"
-# /etc/init.d/memcached restart 2>&1
+echo "start memcached"
+/etc/init.d/memcached restart 2>&1
 
  echo "Makemigrations"
 
@@ -28,7 +28,7 @@ done
 
 echo "Start server"
 
-# python3 manage.py runserver 0.0.0.0:8000
+python3 manage.py runserver 0.0.0.0:8000
 sleep 3
 
 

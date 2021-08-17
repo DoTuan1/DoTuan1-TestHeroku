@@ -18,6 +18,3 @@ django-crispy-forms
 cryptography
 paramiko
 lxml
-gunicorn
-django-heroku
-django-bmemcached
