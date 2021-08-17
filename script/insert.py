@@ -1,5 +1,4 @@
 import psycopg2
-from decouple import config
 import os
 import dj_database_url
 
