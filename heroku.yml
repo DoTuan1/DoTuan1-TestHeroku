@@ -1,6 +1,6 @@
 build:
  docker:
-   web: Dockerfile
+   web: dotuan1-testheroku_web_1
 release:
  image: web
  command:
